@@ -1,0 +1,15 @@
+public class Exam01_Print {
+	public static void main(String[] args) {
+		//print(출력) 구문 작성 - A, B, C
+        //ln은 소괄호 안에 있는 문자가 한줄 통째로 차지하며 출력됨 줄바꿈 역할
+		System.out.println("A"); 
+		System.out.println("B");
+		System.out.println("C");
+		
+		//같은줄에 A,B,C출력 -> ln제거
+		System.out.print("A");
+		System.out.print("B");
+		System.out.print("C");
+		
+	}
+}
